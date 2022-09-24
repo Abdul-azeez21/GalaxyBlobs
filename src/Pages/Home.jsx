@@ -779,71 +779,71 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="lg:text-7xl md:text-5xl text-2xl items-center justify-center flex py-3">
+      <div className="lg:text-7xl md:text-5xl text-2xl items-center justify-center flex py-2">
         <Marquee
           pauseOnHover
           speed={20}
           gradient={false}
           // gradientColor={[0, 0, 0]}
         >
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image1} alt="Blob" className="rounded-md" />
           </div>
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image2} alt="Blob" className="rounded-md" />
           </div>
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image3} alt="Blob" className="rounded-md" />
           </div>
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image4} alt="Blob" className="rounded-md" />
           </div>
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image5} alt="Blob" className="rounded-md" />
           </div>
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image6} alt="Blob" className="rounded-md" />
           </div>
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image7} alt="Blob" className="rounded-md" />
           </div>
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image8} alt="Blob" className="rounded-md" />
           </div>
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image1} alt="Blob" className="rounded-md" />
           </div>
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image2} alt="Blob" className="rounded-md" />
           </div>
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image3} alt="Blob" className="rounded-md" />
           </div>
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image4} alt="Blob" className="rounded-md" />
           </div>
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image5} alt="Blob" className="rounded-md" />
           </div>
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image6} alt="Blob" className="rounded-md" />
           </div>
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image7} alt="Blob" className="rounded-md" />
           </div>
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image8} alt="Blob" className="rounded-md" />
           </div>
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image1} alt="Blob" className="rounded-md" />
           </div>
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image2} alt="Blob" className="rounded-md" />
           </div>
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image3} alt="Blob" className="rounded-md" />
           </div>
-          <div className="lg:w-40 md:w-32 w-16 object-contain px-1">
+          <div className="lg:w-40 md:w-32 w-20 object-contain px-1">
             <img src={image4} alt="Blob" className="rounded-md" />
           </div>
         </Marquee>

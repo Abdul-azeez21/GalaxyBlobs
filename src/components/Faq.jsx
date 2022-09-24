@@ -13,7 +13,7 @@ const Faq = () => {
     setClicked(index);
   };
   return (
-    <div className="lg:p-10 md:p-10 p-6">
+    <div className="lg:p-8 md:p-8 p-6">
       <h1 className="font-bold text-white/75 lg:text-2xl text-lg py-3">
         Frequently Asked Questions
       </h1>

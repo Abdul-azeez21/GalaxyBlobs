@@ -5,6 +5,8 @@ import Web3 from "web3";
 import Marquee from "react-fast-marquee";
 import { Canvas } from "@react-three/fiber";
 import { Sphere, MeshDistortMaterial, OrbitControls } from "@react-three/drei";
+import Footer from "../components/Footer";
+import Faq from "../components/Faq";
 
 //
 import { FaSpaceShuttle, FaEthereum, FaWallet } from "react-icons/fa";
@@ -846,7 +848,8 @@ const Home = () => {
           </div>
         </Marquee>
       </div>
-
+      <Faq />
+      <Footer />
       {/* <div className="flex items-center justify-center">
         <div className="bg-gray-900 p-5 rounded-md m-5 shadow-2xl shadow-purple-900/50">
           <h3 className="lgxt-base text-white text-center font-medium">

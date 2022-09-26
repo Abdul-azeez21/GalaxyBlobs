@@ -762,7 +762,7 @@ const Home = () => {
               </h3>
               <div className="text-center py-2">
                 <input
-                  className="bg-transparent text-white text-center border border-indigo-800 my-1 lg:w-48 w-24 pl-3"
+                  className="bg-transparent text-white text-center border border-indigo-800 my-1 lg:w-48 w-24 pl-2"
                   type="number"
                   name="amount"
                   defaultValue="1"

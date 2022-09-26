@@ -574,7 +574,7 @@ const ABI = [
   },
 ];
 
-const ADDRESS = "0x79ffb3329d4e7231a6b5f20cd3fb68561dca5cc4";
+const ADDRESS = "0xDf8A3b30FBddD3F9F9152481B4aD3ed2599Ab441";
 
 async function connectwallet() {
   if (window.ethereum) {
@@ -760,6 +760,16 @@ const Home = () => {
               <h3 className="lg:text-xl text-base text-indigo-600 text-center font-semibold py-2">
                 Only 1 Galaxy Blob can be minted per person
               </h3>
+              <div className="text-center py-2">
+                <input
+                  className="bg-transparent text-white text-center border border-indigo-800 my-1 lg:w-48 w-24 pl-3"
+                  type="number"
+                  name="amount"
+                  defaultValue="1"
+                  min="1"
+                  max="1"
+                />
+              </div>
             </div>
           </div>
           <div className="flex justify-center items-center p-3">
@@ -773,7 +783,8 @@ const Home = () => {
                 </button>
               </div>
               <p className="text-indigo-600 lg:text-lg text-sm text-center font-normal py-2">
-                PRICE: <span className="text-white">0.03 ETH</span> each mint.
+                PRICE: <span className="text-white px-1">0.03 ETH</span> each
+                mint.
               </p>
             </div>
           </div>
@@ -850,6 +861,9 @@ const Home = () => {
       </div>
       <Faq />
       <Footer />
+
+      {/* testing component */}
+
       {/* <div className="flex items-center justify-center">
         <div className="bg-gray-900 p-5 rounded-md m-5 shadow-2xl shadow-purple-900/50">
           <h3 className="lgxt-base text-white text-center font-medium">

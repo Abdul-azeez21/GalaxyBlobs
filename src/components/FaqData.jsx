@@ -10,7 +10,7 @@ const FaqData = [
   {
     question: "How do i mint a GXB if it's on the Goerli testnet ?",
     answer:
-      "You will need to switch your Metamask wallet to a Goerli Test Network and fund it with any Goerli faucet. After your account has been funded (with GoerliETH), you can mint a Galaxy Blob.",
+      "You will need to switch to a Goerli Test Network in your Metamask wallet and fund it with any Goerli faucet. After your account has been funded (with GoerliETH), you can mint a Galaxy Blob.",
   },
   {
     question: "Why can't i see the images and description on Opensea ?",

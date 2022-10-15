@@ -11,6 +11,7 @@ import Faq from "../components/Faq";
 //
 import { FaSpaceShuttle, FaEthereum, FaWallet } from "react-icons/fa";
 import { GiFallingStar } from "react-icons/gi";
+import { BsArrowDown } from "react-icons/bs";
 
 //images
 import image1 from "../images/1.png";
@@ -629,6 +630,20 @@ const Home = () => {
                 Blobs
               </span>
             </h1>
+          </div>
+        </div>
+      </div>
+      <div className="flex items-center justify-center">
+        <div>
+          <div className="text-center text-white xl:text-sm lg:text-sm md:text-sm text-xs font-normal py-2">
+            Scroll down to connect wallet and mint GXB
+          </div>
+          <div>
+            <div className="flex items-center justify-center">
+              <div className="border border-white rounded-t-xl rounded-b-xl">
+                <BsArrowDown className="h-8 w-4 text-white animate-bounce" />
+              </div>
+            </div>
           </div>
         </div>
       </div>

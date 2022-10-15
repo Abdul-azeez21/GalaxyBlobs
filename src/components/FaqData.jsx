@@ -28,10 +28,10 @@ const FaqData = [
     answer:
       "No, i developed and created every concept and design in this project. From the interface (frontend), to the NFT arts, story and smart contract.",
   },
-  {
-    question:
-      "How do i contact the person behind the development and concept ?",
-    answer: "Click on the link in the footer below and send a dm.",
-  },
+  // {
+  //   question:
+  //     "How do i contact the person behind the development and concept ?",
+  //   answer: "Click on the link in the footer below and send a dm.",
+  // },
 ];
 export default FaqData;

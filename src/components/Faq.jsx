@@ -23,7 +23,7 @@ const Faq = () => {
             <div
               onClick={() => toggle(index)}
               key={index}
-              className="rounded-md bg-indigo-900/75 shadow-lg"
+              className="rounded-md bg-transparent border border-indigo-900 shadow-lg"
             >
               <button className="flex justify-between items-center w-full py-3 px-5">
                 <span className="lg:text-lg text-sm text-white font-medium">
@@ -31,9 +31,9 @@ const Faq = () => {
                 </span>
                 <div>
                   {clicked === index ? (
-                    <HiChevronUp className="h-4 w-4 text-black" />
+                    <HiChevronUp className="h-4 w-4 text-indigo-900" />
                   ) : (
-                    <HiChevronDown className="h-4 w-4 text-black" />
+                    <HiChevronDown className="h-4 w-4 text-indigo-900" />
                   )}
                 </div>
               </button>

@@ -805,7 +805,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="lg:text-7xl md:text-5xl text-2xl items-center justify-center flex py-2">
+      <div className="lg:text-7xl md:text-5xl text-2xl items-center justify-center flex pt-5">
         <Marquee
           pauseOnHover
           speed={20}
@@ -876,55 +876,6 @@ const Home = () => {
       </div>
       <Faq />
       <Footer />
-
-      {/* testing component */}
-
-      {/* <div className="flex items-center justify-center">
-        <div className="bg-gray-900 p-5 rounded-md m-5 shadow-2xl shadow-purple-900/50">
-          <h3 className="lgxt-base text-white text-center font-medium">
-            Please connect your wallet
-          </h3>
-          <div className="flex justify-center items-center py-1">
-            <button
-              onClick={connectwallet}
-              className="rounded-md cursor-pointer bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-600 p-1 text-sm text-white font-medium"
-            >
-              Connect Wallet
-            </button>
-          </div>
-          <div className="border border-purple-800 p-1">
-            <h4 className="text-sm text-center text-white">Wallet Address</h4>
-            <div
-              className="border border-purple-800 p-1 text-white text-sm"
-              id="wallet-address"
-            ></div>
-            <p className="text-white text-sm text-center py-1 px-1">
-              Please select the amount of NFT to mint.
-            </p>
-            <div className="flex items-center justify-center">
-              <div>
-                <input
-                  className="bg-gray-500 text-black my-1 lg:w-48 w-16"
-                  type="number"
-                  name="amount"
-                  defaultValue="1"
-                  min="1"
-                  max="1"
-                />
-              </div>
-            </div>
-            <div className="flex justify-center items-center py-1">
-              <button
-                onClick={mint}
-                className="cursor-pointer border border-purple-800 hover:bg-purple-800 py-1 px-7 text-sm text-white font-medium"
-              >
-                Mint
-              </button>
-            </div>
-            <p className="t-white text-center">PRICE: 0.03 ETH each mint.</p>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };

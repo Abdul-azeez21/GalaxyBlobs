@@ -17,17 +17,17 @@ const FaqData = [
     answer:
       "When using testnets in Opensea it usually doesn't pull the image because Opensea uses a different image repository for their NFTs and its not available while using testnets.",
   },
-  {
-    question: "Is this going to be an actual project later on ?",
-    answer:
-      "No it isn't going to be an actual project. This project was done mainly for the fun of it 🚀.",
-  },
-  {
-    question:
-      "Was the concept of the NFT arts and story copied from anywhere ?",
-    answer:
-      "No, i developed and created every concept and design in this project. From the interface (frontend), to the NFT arts, story and smart contract.",
-  },
+  // {
+  //   question: "Is this going to be an actual project later on ?",
+  //   answer:
+  //     "No it isn't going to be an actual project. This project was done mainly for the fun of it 🚀.",
+  // },
+  // {
+  //   question:
+  //     "Was the concept of the NFT arts and story copied from anywhere ?",
+  //   answer:
+  //     "No, i developed and created every concept and design in this project. From the interface (frontend), to the NFT arts, story and smart contract.",
+  // },
   // {
   //   question:
   //     "How do i contact the person behind the development and concept ?",

@@ -1,6 +1,4 @@
 import React from "react";
-//icons
-import { GiLion } from "react-icons/gi";
 
 const Footer = () => {
   return (
